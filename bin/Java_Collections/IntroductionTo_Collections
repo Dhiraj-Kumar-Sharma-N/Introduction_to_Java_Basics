@@ -1,0 +1,61 @@
+
+Java collections framework is a collection of interfaces and classes which helps in storing and processing data more efficently .
+
+this framework has alot of useful classes which has tons of useful methods/Functions that makes the programmers task more easy.
+
+Types of Collections : 
+
+1. LIST
+2. SET
+2. MAP
+
+============================================   LIST COLLECTIONS  ==========================================================
+ 
+			List is an interface of ordered collection (Sequence) which may contain Duplicate Elements
+			
+							CLASSES THAT IMPLEMENT LIST INTERFACE :
+						
+											a.	ArrayList
+											b.	LinkedList
+											c.	Vector
+									
+
+
+============================================   SET COLLECTIONS  ============================================================
+
+			Set is a collection that cannot contain duplicate Elements , 
+			however it makes no gaurantee concerning the order of iteration 
+			
+			
+			
+							CLASSES THAT IMPLEMENT LIST INTERFACE :
+						
+											a.	HashSet
+											b.	LinkedHashSet
+											c.	TreeSet
+			
+			
+============================================   MAP COLLECTIONS  ============================================================
+			
+			Map is an object that maps keys to values,A Map	connot contain duplicate keys
+
+				CLASSES THAT IMPLEMENT LIST INTERFACE :
+						
+											a.	HashMap
+											b.	LinkedHashMap
+											c.	TreeMap
+			
+Difference between hashmap and hashtable 
+
+1. Synchronization and thread safe : if a multiple thread uses hashmap then Synchronization issue will occur
+									 i.e. 1 thread has to wait for another thread to release the hashmap values
+									 whereas Hashtable synchronization issue does not occur as 2nd thread waits for 1st threead to realese 
+									 hashtable entries 
+									 
+									 
+2. Null Key and Values : Hashmap allows null key or null value
+						 however Hashtable does not allow null key or null value
+						 
+						 
+3.iterator type :  hashmap uses iterator inorder to iterate through the elements/Keyvalue pair
+				   however hashtable uses enumerator just like vecot to traverse through keyvalue pair
